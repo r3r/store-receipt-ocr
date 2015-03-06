@@ -18,3 +18,5 @@ All non-standard Python2.7 libraries are included.
 * If successful returns a JSON object with two keys: 'raw' and 'structure'
     * 'raw' - contains the raw OCR string
     * 'structure' - contains a dictionary of item-price values
+* On ubuntu(linux) install tesseract-ocr and python-imaging
+    * `apt-get install python-imaging tesseract-ocr`

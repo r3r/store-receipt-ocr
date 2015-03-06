@@ -52,7 +52,7 @@ class ReceiptOCR():
 
 
 def test():
-    f = open('bill2.jpg', 'rb')
+    f = open('bill.jpg', 'rb')
     j = b64encode(f.read())
     print len(j)
     f.close()
