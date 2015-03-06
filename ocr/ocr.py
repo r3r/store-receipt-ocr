@@ -60,7 +60,7 @@ def test():
     f.write(j)
     f.close()
     ocr = ReceiptOCR(j)
-    print ocr.convert_to_text()
+    print repr(ocr.convert_to_text())
 
 if __name__=="__main__":
     test()
