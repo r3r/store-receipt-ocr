@@ -59,8 +59,8 @@ def test():
     f = open('bill_base64.txt', 'w')
     f.write(j)
     f.close()
-    #ocr = ReceiptOCR(j)
-    #print ocr.convert_to_text()
+    ocr = ReceiptOCR(j)
+    print ocr.convert_to_text()
 
 if __name__=="__main__":
     test()
